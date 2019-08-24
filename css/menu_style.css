@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	overflow: hidden;
+}
+
+#name {
+	position: absolute;
+	text-align: center;
+	color: #FFFFFF;
+	width: 100%;
+	font-family: 'Aleo';
+	display: block;
+	top: 15%;
+	font-size: 50px;
+}
+
+#start-button {
+	position: absolute;
+	display: block;
+	top: 45%;
+	left: 50%;
+	margin-left: -18%;
+	color: #FFFFFF;
+	font-family: 'Aleo';
+	font-size: 70px;
+	text-decoration: none;
+	transition: 100ms;
+}
+
+#start-button:hover {
+	font-size: 75px;
+}
